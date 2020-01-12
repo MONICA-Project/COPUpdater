@@ -12,7 +12,7 @@
       "commandName": "IISExpress",
       "environmentVariables": {
         "MONICA_THING_TYPE": "Aggregate",
-        "COP_AUTH_TOKEN": "6e1c06ad-0be8-42bf-8033-93fada21d3bf",
+        "COP_AUTH_TOKEN": "6ffdcacb-c485-499c-bce9-23f76d06aa36",
         "COP_API_BASE_PATH_HUB": "https://portal.monica-cloud.eu/FdL/cop/hub/",
         "CONNECTION_STR": "Host=mpclfdbpql01.monica-cloud.eu;Database=monica_fdl2019;Username=monica_cnet;Password=Bohm1Shu;Port=9999",
         "CameraPrefix": "GOST_WDOM",

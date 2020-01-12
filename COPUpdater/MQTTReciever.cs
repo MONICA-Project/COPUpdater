@@ -169,7 +169,7 @@ namespace COPUpdater
             _logger.LogError("COPUpdater listening to " + datastreams.Count.ToString());
             //Setup SignalR
             connection = new HubConnectionBuilder()
-            .WithUrl(copApiBasePathHub + "signalR/wearableupdate")
+            .WithUrl(copApiBasePathHub + "signalR/COPupdate")
             .Build();
             connection.StartAsync().Wait();
             connection.Closed += async (berr) =>
