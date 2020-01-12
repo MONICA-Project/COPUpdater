@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  copupdater:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - MONICA_THING_TYPE=Wearable Smartphone
+    ports:
+      - "80"
