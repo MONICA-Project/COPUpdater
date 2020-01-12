@@ -1,7 +1,7 @@
-# Monica Foobar
+# Monica CopUpdater
 <!-- Short description of the project. -->
 
-Foobar is not a real software. The name is used here as placeholder for a described software. This readme is meant for describing an application but can be adapted to describe a software library by changing `Deployment` section to `Usage`. 
+CopUpdater is responsible for listening to state changes and triggering push updates to the COP clients using signalR
 
 <!-- A teaser figure may be added here. It is best to keep the figure small (<500KB) and in the same repo -->
 
