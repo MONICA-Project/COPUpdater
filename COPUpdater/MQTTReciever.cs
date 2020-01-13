@@ -188,7 +188,7 @@ namespace COPUpdater
                     .WithCommunicationTimeout(TimeSpan.FromSeconds(60))
                    //.WithCredentials("mosquitto", "mosquitto")
                    //.WithTcpServer("monappdwp5.monica-cloud.eu")
-                    .WithTcpServer("192.168.229.101")
+                    .WithTcpServer("127.0.0.1")
                     .Build())
                 .Build();
             ml = (ManagedMqttClient)new MqttFactory().CreateManagedMqttClient();

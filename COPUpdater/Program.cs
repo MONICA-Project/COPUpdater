@@ -52,7 +52,12 @@ namespace COPUpdater
             }
             else settings.gostServer = gostServer;
 
+            string mqttServer = Environment.GetEnvironmentVariable("mqttServer");
+            if (mqttServer == null || mqttServer == "")
+            {
 
+            }
+            else settings.mqttServer = mqttServer;
 
             string CameraPrefix = Environment.GetEnvironmentVariable("CameraPrefix");
 

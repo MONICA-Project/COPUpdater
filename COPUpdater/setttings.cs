@@ -13,6 +13,7 @@ namespace COPUpdater
         public static int deviceEndIndex = int.MaxValue;
         public static  string fixedTopic = "";
         public static string gostServer = "";
+        public static string mqttServer = "192.168.229.101";
     }
 }
 
