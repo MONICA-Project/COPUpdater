@@ -22,7 +22,7 @@ The COPUpdater provides the following main functionalities:
 
 
 
-The COPUpdater is implemented in ASP.NET Core 2.1 and lack any api of itself.
+The COPUpdater is implemented in ASP.NET Core 2.1 and does not expose any api of itself.
 
 <!-- A teaser figure may be added here. It is best to keep the figure small (<500KB) and in the same repo -->
 
